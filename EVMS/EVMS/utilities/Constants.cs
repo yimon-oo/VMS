@@ -11,5 +11,6 @@
         public const string SAVE_SUCCESS_MESSAGE = "အချက်အလက်များကို သိမ်းဆည်းပြီးပါပြီ။";
         public const string Unsuccess_MESSAGE = "ထပ်မံကြိုးစားပါ။";
         public const string DELETE_SUCCESS_MESSAGE = "အချက်အလက်များကို ဖျက်ပြီးပါပြီ။";
+        public const string EXPERY_MESSAGE = "Sorry, Your voucher is expired!";
     }
 }

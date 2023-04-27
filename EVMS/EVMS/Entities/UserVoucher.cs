@@ -11,7 +11,7 @@ namespace EVMS.Entities
         [ForeignKey("user_id")]
         public virtual User User { get; set; }
         public int voucher_id { get; set; }
-        [ForeignKey("UserId")]
+        [ForeignKey("voucher_id")]
         public virtual Voucher Voucher { get; set; }
         public int buy_type { get; set; }
         

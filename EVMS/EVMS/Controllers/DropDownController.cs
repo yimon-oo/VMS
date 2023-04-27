@@ -8,8 +8,8 @@ namespace EVMS.Controllers
     public class DropDownController : Controller
     {
         [HttpGet]
-        [Route("GetMinistry/")]
-        public JsonResult GetMinistry()
+        [Route("getpaymentmethod/")]
+        public JsonResult GetPaymentMethod()
         {
             List<BuyType> list = new List<BuyType>();
             return Json(list);
