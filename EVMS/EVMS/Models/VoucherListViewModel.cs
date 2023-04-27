@@ -2,15 +2,15 @@ namespace EVMS.Models
 {
     public class VoucherListViewModel
     {
-        public int id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public DateTime Expiry_Date { get; set; }
-        public string Image { get; set; }
-        public int Amount { get; set; }
-        public int Payment_Method { get; set; }
-        public int Quantity { get; set; }
-        public int Buy_Type {get;set;}
+        public string title { get; set; }
+        public string description { get; set; }
+        public string expiry_date { get; set; }
+        public string code { get; set; }
+        public string image { get; set; }
+        public int amount { get; set; }
+        public int quantity { get; set; }
+        public int maximum { get; set; }
+        public string status { get; set; }
 
     }
 }

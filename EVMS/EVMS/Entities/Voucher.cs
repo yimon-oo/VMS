@@ -6,14 +6,14 @@ namespace EVMS.Entities
     public class Voucher
     {
         public int id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public DateTime Expiry_Date { get; set; }
-        public string Image { get; set; }
-        public int Amount { get; set; }
-        public int Payment_Method { get; set; }
-        public int Quantity { get; set; }
-        public int Buy_Type { get; set; }
+        public string title { get; set; }
+        public string description { get; set; }
+        public DateTime expiry_date { get; set; }
+        public string code { get; set; }
+        public string qr_image { get; set; }
+        public int amount { get; set; }
+        public int quantity { get; set; }
+        public int maximum { get; set; }
         public bool status { get; set; }
     }
 }

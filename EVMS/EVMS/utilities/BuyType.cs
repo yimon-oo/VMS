@@ -2,7 +2,7 @@
 {
     public enum BuyType
     {
-        only_me_usage=0,
+        only_me_usage=1,
         gift_to_others
     }
 }

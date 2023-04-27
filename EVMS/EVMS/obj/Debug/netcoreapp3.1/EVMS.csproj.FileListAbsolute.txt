@@ -1,0 +1,8 @@
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp3.1\EVMS.csproj.AssemblyReference.cache
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp3.1\EVMS.GeneratedMSBuildEditorConfig.editorconfig
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp3.1\EVMS.AssemblyInfoInputs.cache
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp3.1\EVMS.AssemblyInfo.cs
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp3.1\EVMS.csproj.CoreCompileInputs.cache
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp3.1\EVMS.MvcApplicationPartsAssemblyInfo.cache
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp3.1\EVMS.RazorAssemblyInfo.cache
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp3.1\EVMS.RazorAssemblyInfo.cs

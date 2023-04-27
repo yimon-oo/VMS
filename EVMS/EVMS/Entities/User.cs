@@ -1,8 +1,12 @@
-﻿namespace EVMS.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace EVMS.Entities
 {
+    [Table("user")]
     public class User
     {
+        public int id { get; set; }
         public string name { get; set; }
-        public string ph_number { get; set; };
+        public string phone_number { get; set; }
     }
 }

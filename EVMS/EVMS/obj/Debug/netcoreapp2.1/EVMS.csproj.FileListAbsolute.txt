@@ -1,0 +1,5 @@
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp2.1\EVMS.csproj.AssemblyReference.cache
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp2.1\EVMS.GeneratedMSBuildEditorConfig.editorconfig
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp2.1\EVMS.AssemblyInfoInputs.cache
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp2.1\EVMS.AssemblyInfo.cs
+D:\ymo\VMS\EVMS\EVMS\obj\Debug\netcoreapp2.1\EVMS.csproj.CoreCompileInputs.cache

@@ -1,26 +1,43 @@
 ﻿using EVMS.Entities;
-using EVMS.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EVMS
 {
-    public class DatabaseContext: DbContext
+    public partial class DatabaseContext: DbContext
     {
-        public DatabaseContext(DbContextOptions options) : base(options) { }
-        public DbSet<Voucher> Voucher { get; set; }
+        public DatabaseContext()//(DbContextOptions<DatabaseContext> options) : base(options)
+        {
 
-        //protected readonly IConfiguration Configuration;
+        }
 
-        //public DatabaseContext(IConfiguration configuration)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(@"Data Source=localhost;Initial Catalog=vms;User ID=sa;Password=Passw0rd; Trusted_Connection=True;");
+            }                
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+        }
+
+        public DbSet<Voucher> Voucher => Set<Voucher>();
+        public DbSet<UserVoucher> UserVoucher => Set<UserVoucher>();
+        public DbSet<UserGoods> UserGoods => Set<UserGoods>();
+        public DbSet<Goods> Goods => Set<Goods>();
+        public DbSet<PurchaseHistory> PurchaseHistory => Set<PurchaseHistory>();
+
+        //public  DbSet<Voucher> Voucher { get; set; }
+        //public  DbSet<UserVoucher> UserVoucher { get; set; }
+        //public  DbSet<UserGoods> UserGoods { get; set; }
+        //public  DbSet<Goods> Goods { get; set; }
+        //public  DbSet<PurchaseHistory> PurchaseHistory { get; set; }
+
+        //public new DbSet<TEntity> Set<TEntity>() where TEntity : class
         //{
-        //    Configuration = configuration;
+        //    return base.Set<TEntity>();
         //}
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder options)
-        //{
-        //    // connect to mysql with connection string from app settings
-        //    var connectionString = Configuration.GetConnectionString("WebApiDatabase");
-        //    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
-        //}
     }
 }
