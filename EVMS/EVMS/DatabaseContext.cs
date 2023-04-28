@@ -18,8 +18,9 @@ namespace EVMS
             }                
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder builder)
         {
+            base.OnModelCreating(builder);
         }
 
         public DbSet<Voucher> Voucher => Set<Voucher>();
@@ -27,6 +28,7 @@ namespace EVMS
         public DbSet<UserGoods> UserGoods => Set<UserGoods>();
         public DbSet<Goods> Goods => Set<Goods>();
         public DbSet<PurchaseHistory> PurchaseHistory => Set<PurchaseHistory>();
+        public DbSet<User> User=> Set<User>();
 
         //public  DbSet<Voucher> Voucher { get; set; }
         //public  DbSet<UserVoucher> UserVoucher { get; set; }

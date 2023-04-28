@@ -62,3 +62,4 @@ D:\ymo\VMS\EVMS\EVMS\obj\Debug\net6.0\refint\EVMS.dll
 D:\ymo\VMS\EVMS\EVMS\obj\Debug\net6.0\EVMS.pdb
 D:\ymo\VMS\EVMS\EVMS\obj\Debug\net6.0\EVMS.genruntimeconfig.cache
 D:\ymo\VMS\EVMS\EVMS\obj\Debug\net6.0\ref\EVMS.dll
+D:\ymo\VMS\EVMS\EVMS\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
