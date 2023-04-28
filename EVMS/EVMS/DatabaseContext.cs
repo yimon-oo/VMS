@@ -5,7 +5,7 @@ namespace EVMS
 {
     public partial class DatabaseContext: DbContext
     {
-        public DatabaseContext()//(DbContextOptions<DatabaseContext> options) : base(options)
+        public DatabaseContext()
         {
 
         }
@@ -29,17 +29,6 @@ namespace EVMS
         public DbSet<Goods> Goods => Set<Goods>();
         public DbSet<PurchaseHistory> PurchaseHistory => Set<PurchaseHistory>();
         public DbSet<User> User=> Set<User>();
-
-        //public  DbSet<Voucher> Voucher { get; set; }
-        //public  DbSet<UserVoucher> UserVoucher { get; set; }
-        //public  DbSet<UserGoods> UserGoods { get; set; }
-        //public  DbSet<Goods> Goods { get; set; }
-        //public  DbSet<PurchaseHistory> PurchaseHistory { get; set; }
-
-        //public new DbSet<TEntity> Set<TEntity>() where TEntity : class
-        //{
-        //    return base.Set<TEntity>();
-        //}
 
     }
 }
